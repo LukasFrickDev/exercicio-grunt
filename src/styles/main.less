@@ -1,0 +1,57 @@
+@corFundo: #474787;
+@corTitulos: #f7f1e3;
+@corBotoes: #33d9b2;
+
+main {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    background-color: @corFundo;
+    font-family: Poppins,sans-serif;
+    color: @corTitulos;
+    font-size: 2em;
+}
+
+input {
+    display: block;
+    margin: 16px auto;
+    padding: 8px;
+    width: 25%;
+    border-radius: 4px;
+    border: 2px solid @corBotoes ;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+button {
+    padding: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: @corBotoes;
+    border: none;
+    border-radius: 8px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.margen {
+    padding: 10px 13px;
+}
+
+.resultado {
+    border: 2px solid @corBotoes;
+    border-radius: 16px;
+    margin-top: 32px;
+    display: none;
+    span {
+        display: block;
+        font-size: 2em;
+        font-weight: bold;
+    }
+}
